@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Education Platform</title>
+    <link rel="icon" type="image-x/icon" href="logo.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Environmental Education Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#learning">Learning Modules</a></li>
+                <li><a href="#challenges">Challenges</a></li>
+            </ul>
+            </nav>
+        </header>
+    
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to the Environmental Education Platform! We aim to provide accessible resources and interactive learning tools to educate individuals on the importance of sustainability and environmental conservation.</p>
+        </section>
+    
+        <section id="learning">
+            <h2>Learning Modules</h2>
+            <div class="module">
+                <h3>Climate Change 101</h3>
+                <p>Understand the science behind climate change and how human activities are impacting the planet.</p>
+                <button onclick="showContent('climate')">Start Learning</button>
+                <div id="climate" class="content" style="display:none;">
+                    <p>Climate change refers to long-term shifts in temperatures and weather patterns, mainly due to human activities like burning fossil fuels...</p>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to the Environmental Education Platform! We aim to provide accessible resources and interactive learning tools to educate individuals on the importance of sustainability and environmental conservation.</p>
+    </section>
+
+    <section id="learning">
+        <h2>Learning Modules</h2>
+        <div class="module">
+            <h3>Climate Change 101</h3>
+            <p>Understand the science behind climate change and how human activities are impacting the planet.</p>
+            <button onclick="showContent('climate')">Start Learning</button>
+            <div id="climate" class="content" style="display:none;">
+                <p>Climate change refers to long-term shifts in temperatures and weather patterns, mainly due to human activities like burning fossil fuels...</p>
+            </div>
+        </div>
+
+        <div class="module">
+            <h3>Plastic Pollution</h3>
+            <p>Learn about the effects of plastic pollution on oceans and wildlife and what we can do to reduce it.</p>
+            <button onclick="showContent('plastic')">Start Learning</button>
+            <div id="plastic" class="content" style="display:none;">
+                <p>Plastic pollution occurs when plastic materials accumulate in the environment, negatively impacting wildlife, ecosystems, and human health...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="challenges">
+        <h2>Sustainability Challenges</h2>
+        <div class="challenge">
+            <h3>Water Conservation Challenge</h3>
+            <p>Can you reduce your water consumption by 10% this month? Track your progress below:</p>
+            <button onclick="updateChallenge('water')">Complete Challenge</button>
+            <div id="water" class="challenge-status">
+                <p>Status: Incomplete</p>
+            </div>
+        </div>
+
+        <div class="challenge">
+            <h3>Plastic-Free Week Challenge</h3>
+            <p>Try to avoid all single-use plastics for a week. Track your progress below:</p>
+            <button onclick="updateChallenge('plasticFree')">Complete Challenge</button>
+            <div id="plasticFree" class="challenge-status">
+                <p>Status: Incomplete</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: kumaransh3335@gmail.com</p>
+        <p>Email: subhamkumar98998@gmail.com</p>
+        <p>Email: sahilgrover6622@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
